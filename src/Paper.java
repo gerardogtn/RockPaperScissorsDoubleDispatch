@@ -1,7 +1,7 @@
 /**
  * Created by gerardogtn on 2/20/16.
  */
-public class Paper implements GameObject {
+public class Paper extends GameObject {
 
     public Paper() {
 
@@ -13,17 +13,8 @@ public class Paper implements GameObject {
     }
 
     @Override
-    public boolean beatsScissors() {
-        return false;
-    }
-
-    @Override
     public boolean beatsRock() {
         return true;
     }
 
-    @Override
-    public boolean beatsPaper() {
-        return false;
-    }
 }

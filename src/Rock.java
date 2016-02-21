@@ -1,7 +1,7 @@
 /**
  * Created by gerardogtn on 2/20/16.
  */
-public class Rock implements GameObject {
+public class Rock extends GameObject {
 
     public Rock() {
 
@@ -15,15 +15,5 @@ public class Rock implements GameObject {
     @Override
     public boolean beatsScissors() {
         return true;
-    }
-
-    @Override
-    public boolean beatsRock() {
-        return false;
-    }
-
-    @Override
-    public boolean beatsPaper() {
-        return false;
     }
 }
